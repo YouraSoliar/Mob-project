@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/tasks"
+        android:icon="@drawable/ic_baseline_download_done_24"
+        android:title="Tasks"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/buyList"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Buy List"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/reminder"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Reminder"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/calendar"
+        android:icon="@drawable/ic_baseline_date_range_24"
+        android:title="Calendar"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/taskList"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"
+        android:title="Task List"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+
+</menu>

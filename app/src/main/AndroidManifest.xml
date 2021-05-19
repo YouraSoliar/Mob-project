@@ -9,10 +9,6 @@
         android:roundIcon="@drawable/dodo_icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.DoDo">
-        <activity android:name=".Reminder"></activity>
-        <activity android:name=".TaskList" />
-        <activity android:name=".Calendar" />
-        <activity android:name=".BuyList" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
